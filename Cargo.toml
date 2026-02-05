@@ -1,0 +1,12 @@
+[package]
+name = "nofuture"
+version = "1.2.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+pyo3 = { version = "0.28.0", features = ["extension-module"] }
+
+[lib]
+name = "nofuture"
+crate-type = ["cdylib"]
